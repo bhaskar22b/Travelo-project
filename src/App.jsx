@@ -13,6 +13,8 @@ import { DestinationInfo1,DestinationInfo2,DestinationInfo3,DestinationInfo4,Des
 import Places from "./components/Places"
 import { PlacesInfo1,PlacesInfo2, PlacesInfo3, PlacesInfo4, PlacesInfo5, PlacesInfo6, } from "./json"
 
+import Branch from "./components/branch"
+
 
 
 function App() {
@@ -124,6 +126,10 @@ function App() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section>
+        <Branch/>
       </section>
     </>
 

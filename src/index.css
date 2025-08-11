@@ -345,3 +345,10 @@ body {
 .single-place:hover .place-info h3 {
 	color: #dc3545;
 }
+
+.branch{
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	margin: 50px 0px;
+}
