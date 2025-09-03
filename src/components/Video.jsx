@@ -1,4 +1,3 @@
-import { FaPlayCircle } from "react-icons/fa";
 import { IoPlay } from "react-icons/io5";
 
 const Video = (props) => {
