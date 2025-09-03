@@ -178,12 +178,18 @@ body {
 .trips {
 	width: 100%;
 	display: inline-block;
-	padding: 40px 0;
+	padding: 70px 0;
 }
 
 .trips-col img {
 	max-width: 100%;
 	border-radius: 15px;
+}
+
+.Destination {
+	width: 100%;
+	display: inline-block;
+	padding: 80px 0;
 }
 
 .Des-title {
@@ -273,6 +279,12 @@ body {
 	transition: all 0.3s ease;
 }
 
+.places {
+	width: 100%;
+	display: inline-block;
+	padding: 80px 0;
+}
+
 .place-info {
 	padding: 27px 20px 25px 20px;
 }
@@ -345,3 +357,169 @@ body {
 .single-place:hover .place-info h3 {
 	color: #dc3545;
 }
+
+.video-area {
+	background-image: url(/public/video.png);
+	width: 100%;
+	display: inline-block;
+	background-position: center center;
+	background-size: cover;
+	padding: 185px 0;
+	filter: brightness(85%);
+}
+
+.enjoy-row {
+	width: 100%;
+	text-align: center;
+}
+
+.enjoy-row p {
+	font-family: "Nothing You Could Do", cursive;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 90px;
+	color: #fff;
+	margin-bottom: 55px;
+}
+
+.enjoy-row svg {
+	font-size: 32px;
+	background: #1ec6b6;
+	color: #fff;
+	padding: 20px;
+	border-radius: 50%;
+	animation-name: pluse;
+	animation-duration: 5s;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes pluse {
+      0% {
+    box-shadow: 0 0 10px #1ec6b6, 0 0 20px #1ec6b6, 0 0 40px #1ec6b6;
+    border-color: #1ec6b6;
+  }
+  50% {
+    box-shadow: 0 0 30px #1ec6b6, 0 0 50px #1ec6b6, 0 0 60px #1ec6b6;
+    border-color: #1ec6b6;
+  }
+  100% {
+    box-shadow: 0 0 10px #1ec6b6, 0 0 20px #1ec6b6, 0 0 40px #1ec6b6;
+    border-color: #1ec6b6;
+  }
+}
+
+
+.newsletter {
+	background-image: url(/public/newsletter.png);
+	width: 100%;
+	display: inline-block;
+	background-position: center center;
+	background-size: cover;
+	padding: 35px 0;
+}
+
+
+.cols {
+	width: 35%;
+}
+
+.cols-2 {
+	width: 65%;
+}
+
+.cols h4 {
+	font-size: 30px;
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 11px;
+}
+
+.cols p {
+	color:#44484C;
+	font-size: 17px;
+	line-height: 28px;
+}
+
+.newsletter-box input {
+	padding: 15px 15px;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	border-radius: 8px;
+	width: 70%;
+	margin-right: 15px;
+}
+
+.newsletter-box button {
+	padding: 15px 25px;
+	background: #ff4d4d;
+	color: white;
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 8px;
+	transition: all 0.3s ease;
+}
+
+.newsletter-box button:hover{
+	background: #20c997;
+}
+
+.newsletter-box {
+	width: 100%;
+	padding: 28px 15px;
+}
+
+.Search-box {
+	background: #040E27;
+	padding: 50px 0;
+}
+
+.rom-iteam {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.rom-iteam h2 {
+	font-size: 26px;
+	color: #fff;
+	font-weight: 400;
+}
+
+.rom-iteam input,
+.rom-iteam select {
+	padding: 13px 32px;
+	border-radius: 6px;
+	border: 1px solid #2d3a4b;
+	background: transparent;
+	color: white;
+	font-size: 15px;
+	outline: none;
+}
+
+.rom-iteam button {
+	background: #ff4b4b;
+	color: white;
+	padding: 10px 32px;
+	border: none;
+	border-radius: 6px;
+	font-size: 14px;
+	cursor: pointer;
+	transition: 0.3s ease;
+	font-weight: bold;
+}
+
+.rom-iteam button:hover{
+	background: #20c997;
+}
+
+.rom-iteam input::placeholder {
+      color: #aaa;
+    }
+
+    .rom-iteam select option {
+      color: black;
+    }

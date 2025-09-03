@@ -13,7 +13,11 @@ import { DestinationInfo1,DestinationInfo2,DestinationInfo3,DestinationInfo4,Des
 import Places from "./components/Places"
 import { PlacesInfo1,PlacesInfo2, PlacesInfo3, PlacesInfo4, PlacesInfo5, PlacesInfo6, } from "./json"
 
+import Video from "./components/video"
 
+import NewsLetter from "./components/NewsLetter"
+
+import SearchBox from "./components/SearchBox"
 
 function App() {
 
@@ -21,31 +25,10 @@ function App() {
 
   return (
     <>
+
+      
       <section className="header">
         <NavBar navv={navData} />
-      </section>
-
-      <section className="travel-area">
-        <div className="container">
-          <div className="flex">
-            <Travel title={TravelInfo1.title} des={TravelInfo1.description} img={TravelInfo1.src}/>
-            <Travel title={TravelInfo2.title} des={TravelInfo2.description} img={TravelInfo2.src}/>
-            <Travel title={TravelInfo3.title} des={TravelInfo3.description} img={TravelInfo3.src}/>
-          </div>
-        </div>
-      </section>
-
-      <section className="trips">
-        <div className="container">
-          <div className="title">
-            <h1>Recent Trips</h1>
-          </div>
-          <div className="flex">
-            <Trips title={TripsInfo.title} des={TripsInfo.description} img={TripsInfo.src}/>
-            <Trips title={TripsInfo1.title} des={TripsInfo1.description} img={TripsInfo1.src}/>
-            <Trips title={TripsInfo2.title} des={TripsInfo2.description} img={TripsInfo2.src}/>
-          </div>
-        </div>
       </section>
 
       <section className="Destination">
@@ -88,6 +71,10 @@ function App() {
         </div>
       </section>
 
+      <section className="newsletter">
+        <NewsLetter/>
+      </section>
+
       <section className="places">
         <div className="container">
           <div className="Des-title">
@@ -125,8 +112,40 @@ function App() {
           </div>
         </div>
       </section>
-    </>
 
+      <section className="video-area">
+        <Video/>
+      </section>
+
+      <section className="travel-area">
+        <div className="container">
+          <div className="flex">
+            <Travel title={TravelInfo1.title} des={TravelInfo1.description} img={TravelInfo1.src}/>
+            <Travel title={TravelInfo2.title} des={TravelInfo2.description} img={TravelInfo2.src}/>
+            <Travel title={TravelInfo3.title} des={TravelInfo3.description} img={TravelInfo3.src}/>
+          </div>
+        </div>
+      </section>
+
+      <section className="trips">
+        <div className="container">
+          <div className="title">
+            <h1>Recent Trips</h1>
+          </div>
+          <div className="flex">
+            <Trips title={TripsInfo.title} des={TripsInfo.description} img={TripsInfo.src}/>
+            <Trips title={TripsInfo1.title} des={TripsInfo1.description} img={TripsInfo1.src}/>
+            <Trips title={TripsInfo2.title} des={TripsInfo2.description} img={TripsInfo2.src}/>
+          </div>
+        </div>
+      </section>
+
+      <section className="Search-box">
+        <SearchBox/>
+      </section>
+    </>
+      
+    
 
   )
 }
