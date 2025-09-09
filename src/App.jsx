@@ -13,7 +13,7 @@ import { DestinationInfo1,DestinationInfo2,DestinationInfo3,DestinationInfo4,Des
 import Places from "./components/Places"
 import { PlacesInfo1,PlacesInfo2, PlacesInfo3, PlacesInfo4, PlacesInfo5, PlacesInfo6, } from "./json"
 
-import Video from "./components/video.jsx"
+import Video from "./components/Video.jsx"
 
 import NewsLetter from "./components/NewsLetter"
 
